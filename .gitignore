@@ -1,0 +1,43 @@
+output/
+.ipynb_checkpoints/Facial Emotions-checkpoint.ipynb
+dataset/
+cv_raw.npy
+train_raw.npy
+test_raw.npy
+saved_images/1.jpg
+__pycache__/model_utils.cpython-36.pyc
+__pycache__/prediction_utils.cpython-36.pyc
+__pycache__/webcam_utils.cpython-36.pyc
+save_loc/1.jpg
+.idea/
+__pycache__/
+
+# CMake
+cmake-build-*/
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
