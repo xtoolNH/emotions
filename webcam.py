@@ -47,7 +47,10 @@ def realtime_emotions(incoming_variable):
         emoji_faces.append(cv2.imread('emojis/' + emotion + '.png', -1))
 
     # set video capture device , webcam in this case
-    video_capture = cv2.VideoCapture(0)
+    # Define Webcam Input
+    # 0: External Webcam via USB
+    # 1: System Embedded Webcam
+    video_capture = cv2.VideoCapture(1)
     video_capture.set(3, 640)  # WIDTH
     video_capture.set(4, 480)  # HEIGHT
 
